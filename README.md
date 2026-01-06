@@ -1,5 +1,3 @@
-# postgres-latency-clinic
-
 # Postgres Latency Clinic — API + Query Plan Optimization (p95/p99)
 
 A small performance case study demonstrating how to identify and fix an API latency bottleneck caused by an inefficient Postgres access pattern. Includes **before/after benchmarks (p50/p95/p99)**, **EXPLAIN (ANALYZE, BUFFERS)** output, and the optimization implemented (index + query tweak).
